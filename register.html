@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <style type="text/css">
+        .form-row {
+            margin: 10px;
+
+        }
+
+        .right {
+            float: right;
+
+        }
+
+        .container {
+            width: 450px;
+        }
+
+
+    </style>
+</head>
+<body>
+<h1>Register</h1>
+
+<div class="container">
+    <form action="#" method="get">
+        <div class="form-row"><label> Email<input type="email" required name="email" class="right"></label></div>
+        <div class="form-row"><label> Password<input type="password" required name="pass" class="right"></label>
+        </div>
+        <div class="form-row"><label>Confirm Password<input type="password" required class="right"></label></div>
+        <div class="form-row"><label>Addres<textarea cols="30" class="right" name="addres"> </textarea></label></div>
+        <div class="form-row"><label>Date of register<input type="date" class="right" name="dregister"></label></div>
+        <div class="form-row"><label> Gender
+            <select name="gender">
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+        </label></div>
+
+        <div class="form-row"><label>Age<input type="number" class="right" name="age"></label></div>
+        <div class="form-row"><label>Upload photo<input type="file" multiple class="right" name="fupload"></label></div>
+        <div class="form-row">Send me promotional email
+
+
+            <input type="radio" name="promo" value="Yes" checked >Yes</input>
+            <input type="radio" name="promo" value="No">No</input>
+
+
+        </div>
+
+        <div class="form-row">
+            <label>Bio info
+                <textarea name="bio" cols="30" rows="10" class="right" ></textarea>
+            </label></div>
+
+
+
+        <div class="form-row" style="clear: both ">
+            <input type="submit" value="Sent info">
+            <input type="reset" value="Reset info">
+        </div>
+
+
+    </form>
+</div>
+
+
+</body>
+</html>
