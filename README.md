@@ -1,6 +1,6 @@
 # 4-html-advanced
 
-See
+See:
 
 
 Login page https://olexanders17.github.io/4-html-advanced/login.html
