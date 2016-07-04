@@ -25,12 +25,12 @@
 <h1>Register</h1>
 
 <div class="container">
-    <form action="#" method="get">
-        <div class="form-row"><label> Email<input type="email" required name="email" class="right"></label></div>
+    <form action="#" method="post">
+        <div class="form-row"><label> Email<input type="email" required name="email" class="right" autocomplete="off" ></label></div>
         <div class="form-row"><label> Password<input type="password" required name="pass" class="right"></label>
         </div>
         <div class="form-row"><label>Confirm Password<input type="password" required class="right"></label></div>
-        <div class="form-row"><label>Addres<textarea cols="30" class="right" name="addres"> </textarea></label></div>
+        <div class="form-row"><label>Addres<textarea cols="30" class="right" name="addres" > </textarea></label></div>
         <div class="form-row"><label>Date of register<input type="date" class="right" name="dregister"></label></div>
         <div class="form-row"><label> Gender
             <select name="gender">
@@ -56,6 +56,8 @@
             </label></div>
 
 
+        <hr style="clear: both;margin-top: 20px ">
+        <div class="form-row"><label><input type="text"  name="agree"  disabled value="My information is proper" > </label></div>
 
         <div class="form-row" style="clear: both ">
             <input type="submit" value="Sent info">
