@@ -25,12 +25,12 @@
 <h1>Login</h1>
 
 <div class="container">
-<form  action="#" method="get" >
-    <div class="form-row"><label> Email<input type="email" required class="right"></label></div>
-    <div class="form-row"><label> Password<input type="password" required class="right"></label></div>
-    <div class="form-row"><label> Remember me <input type="checkbox" class="right"></label></div>
+<form  action="/login" method="post" >
+    <div class="form-row"><label> Email<input type="email" required class="right" name="email" ></label></div>
+    <div class="form-row"><label> Password<input type="password" required class="right" name="pass" maxlength="10" minlength="3"></label></div>
+    <div class="form-row"><label> Remember me <input type="checkbox" class="right" name="remember"> </label></div>
     <div class="form-row">
-        <button>login</button>
+        <input type="submit" value="Login"/>
     </div>
 </form>
 </div>
